@@ -1,0 +1,29 @@
+{
+  "name": "johnny-five-arduino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "johnny-five": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.14"
+  },
+  "private": "true",
+  "author": "here2contactme@gmail.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserlist": [
+    "> 1%",
+    "last two versions",
+    "not ie <= 10"
+  ]
+}
